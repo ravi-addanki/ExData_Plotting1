@@ -34,8 +34,16 @@ web site</a>:
 </ol>
 
 ## Loading the data
+You may load the data by using getExData() function in source("getExData.R")
+This will download the file if necessary and returns the result
+you may capture it using source("getExData.R");tidyData <- getExData()
 
+## Running / producing plots
+You may run the plot by running corresponding R file (this will also load data)
+For example: to generate plot1.png run  source("plot1.R") from project directory
 
+##Output
+output files are: plot1.png, plot2.png, plot3.png, plot4.png
 
 
 
