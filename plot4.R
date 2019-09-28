@@ -30,5 +30,5 @@ plot(tidyData$Time,tidyData$Global_reactive_power,type="l",main="",xlab="datetim
      ylab="Global_reactive_power")
 
 #Save to file as png
-dev.copy(png,file="plot3.png")
+dev.copy(png,file="plot4.png")
 dev.off()
