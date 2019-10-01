@@ -3,6 +3,7 @@ source("getExData.R")
 tidyData <- getExData()
 #Set Parameters
 par(fin = c(480/96,480/96))
+par(fin = c(4,4)) # plot area adjusted to meet requirement
 par(mar=c(4,4,3,1))
 
 #Construct graph on screen

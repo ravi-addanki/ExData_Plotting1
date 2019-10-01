@@ -14,7 +14,6 @@ plot(tidyData$Time,tidyData$Global_active_power,type="l",main="",xlab="",
 plot(tidyData$Time,tidyData$Voltage,type="l",main="",xlab="datetime",
      ylab="Voltage")
 
-
 #Plot3
 plot(tidyData$Time,tidyData$Sub_metering_3 * 1.3 ,type="n",main="",xlab="",
                     ylab="Energy sub metering")

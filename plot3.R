@@ -6,7 +6,7 @@ par(mar=c(4,4,1,1))
 par(mfrow = c(1,1))
 
 #Construct graph on screen 
-plot(tidyData$Time,tidyData$Sub_metering_3 * 1.3 ,type="n",main="",xlab="",
+plot(tidyData$Time,tidyData$Sub_metering_1  ,type="n",main="",xlab="",
                     ylab="Energy sub metering")
 lines(tidyData$Time,tidyData$Sub_metering_1,col="black")
 lines(tidyData$Time,tidyData$Sub_metering_2,col="red")
